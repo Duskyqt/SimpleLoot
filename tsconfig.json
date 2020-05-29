@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "esnext",
+      "lib": ["es2015", "es2016", "es2017", "es2018", "esnext"],
+      "strict": true,
+      "types": [
+        "./Types/Custom",
+        "./Types/LuaBox",
+        "./Types/WoWAPI"
+      ],
+      "outDir": "./Other/Outputs/Lua"
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "luaLibImport": "inline",
+    "noHeader": true
+  },
+  "include": ["Source/**/*"],
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4
+}

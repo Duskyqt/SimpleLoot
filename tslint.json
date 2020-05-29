@@ -1,0 +1,41 @@
+{
+    "extends": ["tslint:recommended"],
+    "linterOptions": {
+        "exclude": [
+            "./Other/**/*"
+        ]
+    },
+    "rules": {
+        "array-type": false,
+        "ban-types": false,
+        "max-classes-per-file": true,
+        "max-line-length": {
+            "options": [500]
+        },
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-namespace": false,
+        "no-circular-imports": [true, { "search-depth-limit": 5 }],
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": false,
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "no-empty-interface": false,
+        "no-string-literal": false,
+        "no-shadowed-variable": false,
+        "object-literal-shorthand": false,
+        "object-literal-sort-keys": false,
+        "one-variable-per-declaration": false,
+        "prefer-for-of": false,
+        "trailing-comma":false,
+        "triple-equals": false
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [120]
+        }
+    }
+}

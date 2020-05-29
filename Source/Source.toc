@@ -1,0 +1,17 @@
+## Set the addon name to parameter the output addon's identity
+AddonName=SimpleLoot
+
+## Set wether you want the addon to be standalone
+Standalone=true
+
+## This file will be used to add new files to be wrapped. 
+## The Wrapper will always find every files that are listed and add these one by one, like a normal .toc would do.
+
+## Core Files
+
+Processes/Inventory.ts
+Processes/Units.ts
+Processes/Movement.ts
+Processes/Looting.ts
+
+Core.ts

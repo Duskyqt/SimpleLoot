@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "build": "tsc -p Other/Wrapper/tsconfig.json && node ./Other/Wrapper/Wrapper.js Wrap=Ts && tstl -p Other/Outputs/TypeScript/tsconfig.json && node ./Other/Wrapper/Wrapper.js Wrap=Lua",
+        "build-wrapper": "tsc Other\\Wrapper\\Wrapper.ts"
+    },
+    "dependencies": {
+        "@types/node": "^13.5.0",
+        "app-root-path": "^3.0.0",
+        "concat": "^1.0.3",
+        "tslint": "^5.20.0",
+        "typescript-to-lua": "^0.32.2"
+    }
+}
